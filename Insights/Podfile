@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+
+target 'Insights' do
+    use_frameworks!
+    pod 'Parse'
+    pod 'TwitterKit'
+end
